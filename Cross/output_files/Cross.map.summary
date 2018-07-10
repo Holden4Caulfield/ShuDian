@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Jul 10 20:38:22 2018
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : Cross
+Top-level Entity Name : Cross
+Family : Cyclone IV E
+Total logic elements : 25
+    Total combinational functions : 25
+    Dedicated logic registers : 18
+Total registers : 18
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
