@@ -1,11 +1,11 @@
-|Cross
+|Cross_fina
 A <= 74161:inst19.QA
 CLK => 74190:inst15.CLK
 CLK => 74190:inst17.CLK
 B <= 74161:inst19.QB
 
 
-|Cross|74161:inst19
+|Cross_fina|74161:inst19
 clk => f74161:sub.clk
 ldn => f74161:sub.ldn
 clrn => f74161:sub.clrn
@@ -22,7 +22,7 @@ qa <= f74161:sub.qa
 rco <= f74161:sub.rco
 
 
-|Cross|74161:inst19|f74161:sub
+|Cross_fina|74161:inst19|f74161:sub
 RCO <= 105.DB_MAX_OUTPUT_PORT_TYPE
 CLRN => 110.ACLR
 CLRN => 99.ACLR
@@ -52,7 +52,7 @@ QB <= 87.DB_MAX_OUTPUT_PORT_TYPE
 QA <= 9.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Cross|74190:inst15
+|Cross_fina|74190:inst15
 RCON <= 58.DB_MAX_OUTPUT_PORT_TYPE
 D => 20.IN0
 LDN => 32.IN0
@@ -75,7 +75,7 @@ QC <= 50.DB_MAX_OUTPUT_PORT_TYPE
 QD <= 51.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Cross|74190:inst
+|Cross_fina|74190:inst
 RCON <= 58.DB_MAX_OUTPUT_PORT_TYPE
 D => 20.IN0
 LDN => 32.IN0
@@ -98,7 +98,40 @@ QC <= 50.DB_MAX_OUTPUT_PORT_TYPE
 QD <= 51.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Cross|74190:inst17
+|Cross_fina|74153o:inst6
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+
+
+|Cross_fina|74153o:inst11
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+
+
+|Cross_fina|74153o:inst7
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+
+
+|Cross_fina|74190:inst17
 RCON <= 58.DB_MAX_OUTPUT_PORT_TYPE
 D => 20.IN0
 LDN => 32.IN0
@@ -121,7 +154,7 @@ QC <= 50.DB_MAX_OUTPUT_PORT_TYPE
 QD <= 51.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Cross|74190:inst16
+|Cross_fina|74190:inst16
 RCON <= 58.DB_MAX_OUTPUT_PORT_TYPE
 D => 20.IN0
 LDN => 32.IN0
@@ -142,5 +175,49 @@ QA <= 48.DB_MAX_OUTPUT_PORT_TYPE
 QB <= 49.DB_MAX_OUTPUT_PORT_TYPE
 QC <= 50.DB_MAX_OUTPUT_PORT_TYPE
 QD <= 51.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Cross_fina|74153o:inst14
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+
+
+|Cross_fina|74153o:inst18
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+
+
+|Cross_fina|74153o:inst21
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
+
+
+|Cross_fina|74153o:inst12
+1Y <= 9.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 26.IN0
+B => 27.IN0
+A => 29.IN0
+1C0 => 1.IN3
+1C1 => 2.IN3
+1C2 => 3.IN3
+1C3 => 4.IN3
 
 

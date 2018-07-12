@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Tue Jul 10 20:38:22 2018
+Analysis & Synthesis Status : Successful - Thu Jul 12 11:19:24 2018
 Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 Revision Name : Cross
-Top-level Entity Name : Cross
+Top-level Entity Name : Cross_fina
 Family : Cyclone IV E
-Total logic elements : 25
-    Total combinational functions : 25
+Total logic elements : 49
+    Total combinational functions : 49
     Dedicated logic registers : 18
 Total registers : 18
 Total pins : 3
