@@ -18,28 +18,36 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "07/12/2018 08:51:25"
+// Generated on "07/12/2018 13:58:59"
                                                                                 
-// Verilog Test Bench (with test vectors) for design :                          Cross
+// Verilog Test Bench (with test vectors) for design :                          Cross_fina
 // 
 // Simulation tool : 3rd Party
 // 
 
 `timescale 1 ps/ 1 ps
-module Cross_vlg_vec_tst();
+module Cross_fina_vlg_vec_tst();
 // constants                                           
 // general purpose registers
 reg CLK;
 // wires                                               
 wire A;
 wire B;
+wire pin_name1;
+wire pin_name2;
+wire pin_name5;
+wire pin_name6;
 
 // assign statements (if any)                          
-Cross i1 (
+Cross_fina i1 (
 // port map - connection between master ports and signals/registers   
 	.A(A),
 	.B(B),
-	.CLK(CLK)
+	.CLK(CLK),
+	.pin_name1(pin_name1),
+	.pin_name2(pin_name2),
+	.pin_name5(pin_name5),
+	.pin_name6(pin_name6)
 );
 initial 
 begin 

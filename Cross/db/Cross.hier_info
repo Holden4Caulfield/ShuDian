@@ -3,6 +3,12 @@ A <= 74161:inst19.QA
 CLK => 74190:inst15.CLK
 CLK => 74190:inst17.CLK
 B <= 74161:inst19.QB
+pin_name1 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+pin_name2 <= 74153o:inst6.1Y
+pin_name3 <= 74153o:inst21.1Y
+pin_name4 <= 74153o:inst21.1Y
+pin_name5 <= 74190:inst17.QA
+pin_name6 <= 74190:inst17.QC
 
 
 |Cross_fina|74161:inst19
